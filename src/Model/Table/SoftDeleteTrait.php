@@ -12,7 +12,7 @@ trait SoftDeleteTrait {
      * Get the configured deletion field
      *
      * @return string
-     * @throws \SoftDelete\Error\MissingFieldException
+     * @throws \SoftDelete\Error\MissingColumnException
      */
     public function getSoftDeleteField()
     {
